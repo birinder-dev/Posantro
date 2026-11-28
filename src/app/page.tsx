@@ -21,7 +21,7 @@ const PLACEHOLDER_SECTIONS = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100 pr-32">
+    <main className="min-h-screen bg-zinc-950 text-zinc-100 pr-20">
       <ScrollCog />
 
       {PLACEHOLDER_SECTIONS.map((section, idx) => (
